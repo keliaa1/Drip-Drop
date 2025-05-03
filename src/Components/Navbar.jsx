@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className='flex align-center justify-center gap-9'>
         <Link to='/signUp'><button className='border-1 border-gray-400 py-2 px-7 rounded-full cursor-pointer active:bg-gray-600 active:text-white'>Login</button></Link>
         <Link to='/cart'><img className='w-10 h-10 mt-3' src={cart_icon} alt="cart.png" /></Link>
-        <div className='w-6 h-6 p-1 bg-red-600 text-white rounded-full flex align-center justify-center text-[14px] mt-[-3px] ml-[-48px]'>0</div>
+        <div className='w-6 h-6 p-1 bg-red-600 text-white rounded-full flex align-center justify-center text-[14px] mt-[-3px] ml-[-8px]'>0</div>
       </div>
     </div>
   )
