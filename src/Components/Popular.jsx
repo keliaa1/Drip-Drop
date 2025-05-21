@@ -4,7 +4,7 @@ import Items from './Items'
 
 const Popular = () => {
   return (
-    <div className=' align-center gap-[10px]'>
+    <div className=' align-center gap-[10px] '>
       <h2 className='text-[#171717] text-5xl font-semibold text-center pt-3.5 pb-7'>Popular in Women</h2>
       <div className='mt-[50px] flex gap-[50px] justify-center'>
         {data_product.map((items, i) => (

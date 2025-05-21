@@ -4,8 +4,8 @@ import exclusive_image from "../Assets/exclusive_image.png";
 const Offers = () => {
   return (
     <div
-      className="h-[50vh] flex gap-10 mx-auto mb-[150px]
- py-0 px-[140px] bg-gradient-to-br from-pink-200 to-white"
+      className="h-[40vh] flex gap-10 items-center justify-center w-[80vw]
+ py-0 px-[140px] mx-auto bg-gradient-to-br from-pink-200 to-white"
     >
       <div className="flex-1 flex flex-col justify-center">
         <h1 className="text-4xl font-semibold text-gray-800">Exclusive offers for you</h1>
@@ -16,7 +16,7 @@ const Offers = () => {
           Shop Now
         </button>
       </div>
-      <div className="flex h-[40vh]">
+      <div className="flex h-[30vh]">
         <img className="" src={exclusive_image} alt="" />
       </div>
     </div>

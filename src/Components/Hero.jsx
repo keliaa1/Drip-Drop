@@ -5,7 +5,7 @@ import hero_image from '../Assets/hero_image.png'
 
 const Hero = () => {
   return (
-    <div className= 'h-screen flex bg-gradient-to-br from-pink-200 to-white'>
+    <div className= 'h-screen w-full flex bg-gradient-to-br from-pink-200 to-white'>
         <div className='flex-1 flex-col justify-center gap-[20px] pl-[100px] leading-tight pt-[100px] '>
             <h2 className=' font-semibold pb-[20px] text-[20px] text-amber-900'>New Arrivals Only</h2>
             <div>
